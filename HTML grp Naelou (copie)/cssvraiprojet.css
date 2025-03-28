@@ -1,0 +1,91 @@
+
+nav {
+  border-bottom: 1px solid black;
+}
+
+.crumbs ol {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.crumb {
+  display: inline-block;
+}
+
+.crumb a::after {
+  display: inline-block;
+  color: #000;
+  content: ">";
+  font-size: 80%;
+  font-weight: bold;
+  padding: 0 3px;
+}
+
+body{ background-color:   #ecb504 ;
+	font-family: "Spicy Rice", serif;}
+
+.spicy-rice-regular {
+  font-family: "Spicy Rice", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p{ text-align: center; 
+       font-size: 18pt;
+	color: #7e8ec7  }
+
+ul{color:white;
+	font-size:18pt}
+
+
+
+h1  {  text-align: center ;
+		 font-size: 50pt;
+         color: black;  
+       } 
+h2  {	font-size: 30pt;
+         color:  #037ff4 ;  
+       } 
+h3  {	font-size: 25pt;
+         color:  #037ff4 ;  
+       } 
+marquee{font-size: 30pt}
+
+td{  padding: 1px;
+        border: 5px solid black;
+}
+
+
+
+td{ color:  #7fbbbd  ;
+	font-size: 25pt}
+
+.t1{
+  border : 5px solid #da7eb0;
+}
+.t2 td, .t2 th{
+  border: 3px solid #7fbbbd;
+}
+
+th{ color: white ;
+	font-size: 25pt}
+
+caption{ color:   #037ff4   ;
+	font-size: 30pt}
+
+li{ color: #7e8ec7 ;} 
+
+.container {
+    border: 2px solid #000; /* Bordure noire de 2px */
+    padding: 20px; /* Espacement interne pour ne pas coller le contenu à la bordure */
+    margin: 20px; /* Espacement externe pour éloigner l'élément des autres */
+    border-radius: 10px; /* Bordures arrondies */
+	background-color: #eeeeee
+}
+
+/* Optionnel : style du texte à l'intérieur */
+.container p {
+    font-size: 18pt;
+    
+}
+

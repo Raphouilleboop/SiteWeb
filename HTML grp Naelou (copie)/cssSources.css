@@ -1,0 +1,31 @@
+nav {
+  border-bottom: 1px solid black;
+}
+
+.crumbs ol {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.crumb {
+  display: inline-block;
+}
+
+.crumb a::after {
+  display: inline-block;
+  color: #000;
+  content: ">";
+  font-size: 80%;
+  font-weight: bold;
+  padding: 0 3px;
+}
+
+body{ background-color:  #fcc163 ;
+	font-family: Georgia, serif;}
+
+
+ul{text-align: left;
+	color: #6a460c;
+	font-size:18pt}
+a{color: #6a460c;
+	font-size:18pt}

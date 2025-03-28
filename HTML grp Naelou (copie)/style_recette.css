@@ -1,0 +1,87 @@
+
+
+.crumbs ol {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.crumb {
+  display: inline-block;
+}
+
+.crumb a::after {
+  display: inline-block;
+  color: #000;
+  content: ">";
+  font-size: 80%;
+  font-weight: bold;
+  padding: 0 3px;
+}
+
+body{ background-color:  #f9e694;
+	margin: 0;
+    padding: 0;
+    height: 100vh;
+	font-family:monospace}
+
+.container {
+    border: 2px solid #000; /* Bordure noire de 2px */
+    padding: 20px; /* Espacement interne pour ne pas coller le contenu à la bordure */
+    margin: 20px; /* Espacement externe pour éloigner l'élément des autres */
+    border-radius: 10px; /* Bordures arrondies */
+}
+
+/* Optionnel : style du texte à l'intérieur */
+.container p {
+    font-size: 18pt;
+    
+}
+
+
+
+.image-top-right {
+    position: absolute;
+    top: 10px;  /* Ajustez la distance depuis le haut */
+    right: 10px;  /* Ajustez la distance depuis la droite */
+    width: 300px;  /* Ajustez la taille de l'image selon vos besoins */
+}
+h1  {
+         font-size: large ;
+		 font-size: 65pt;
+	font-family: Snell Roundhand, cursive;
+         color: black;  
+	text-decoration: underline;
+       } 
+
+h2 { margin: 0;
+       color: black;
+	font-size: 25pt;
+	text-decoration: underline;}
+
+section{font-size:18pt
+}
+
+h3{font-size:19pt
+}
+
+ul{color:black;
+	font-size:18pt}
+
+br{ color: black }
+
+
+
+
+marquee{font-size: 30pt}
+
+caption{ color: #FF0080 ;
+	font-size: 30pt}
+
+label{margin: 0;
+       color: black;
+	font-size: 19pt;
+	}
+       	}
+
+.ingredient-list{font-size: 18pt;
+	font-family:monospace}
